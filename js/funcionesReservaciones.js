@@ -154,7 +154,7 @@ function pintarReservaciones(respuesta){
 //////////////////
 function getClientes_Reservaciones(){
     $.ajax({
-        url:"http://localhost:8080/api/Client/all",
+        url:"http://129.159.37.204:8080/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -171,7 +171,7 @@ function getClientes_Reservaciones(){
 //////////////////
 function getMachine_Reservaciones(){
     $.ajax({
-        url:"http://localhost:8080/api/Machine/all",
+        url:"http://129.159.37.204:8080/api/Machine/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){

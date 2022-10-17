@@ -158,7 +158,7 @@ function pintarMachine(json_maquinas){
 
 function getCategoria_Machine(){
     $.ajax({
-        url:"http://localhost:8080/api/Category/all",
+        url:"http://129.159.37.204:8080/api/Category/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){

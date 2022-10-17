@@ -147,7 +147,7 @@ function pintarMensajes(respuesta){
 /////////////////////////////////
 function getClientes_Mensajes(){
     $.ajax({
-        url:"http://localhost:8080/api/Client/all",
+        url:"http://129.159.37.204:8080/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -167,7 +167,7 @@ function getClientes_Mensajes(){
 /////////////////////////////////
 function getMachine_Mensajes(){
     $.ajax({
-        url:"http://localhost:8080/api/Machine/all",
+        url:"http://129.159.37.204:8080/api/Machine/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
